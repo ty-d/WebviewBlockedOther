@@ -16,6 +16,10 @@ export function activate(context: vscode.ExtensionContext) {
 			</head>
 			<body>
 				<img src="http://localhost:3000/test"/>
+
+				<embed type="image/svg+xml" src="http://localhost:3000/test"/>
+				<object type="image/svg+xml" data="http://localhost:3000/test"/>
+				<iframe src="http://localhost:3000/test"/>
 			</body>
 			</html>
 		`;
